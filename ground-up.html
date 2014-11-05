@@ -1,0 +1,56 @@
+<head>
+	<title>ground-up</title>
+</head>
+
+<!--
+	1. A simple template and click incrementor
+	The template named hello is included in the body.
+	The template outputs the variable counter, found in the corresponding template helper
+-->
+<body>
+
+	<h1>Welcome!</h1>
+
+	<p>Include a template by name:</p>
+	{{> hello}}
+
+</body>
+
+<template name="hello">
+	<p>A template named hello</p>
+	<button>Clicked {{counter}} times</button>
+</template>
+
+<!--
+	2. A template for a collection of data
+-->
+<!--
+	3. A template that doesn't care that the data came from a database
+	After running the Mongo inserts in the JS file, add one via the console with:
+	Things.insert({text: "Thing 3 from the client"});
+-->
+<!-- <body>
+
+	<h2>Things</h2>
+
+	<ul>
+		{{#each things}}
+			{{> thing}}
+		{{/each}}
+	</ul>
+
+</body>
+
+<template name="thing">
+	<li>{{text}}</li>
+</template> -->
+
+<!--
+	4. A form template to add new 'things'
+	Pop this in the body {{> thinger}} above
+-->
+<!-- <template name="thinger">
+	<form id="newThing">
+		<input type="text" name="newThing" placeholder="Add a new thing..." />
+	</form>
+</template> -->
