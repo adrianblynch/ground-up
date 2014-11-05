@@ -15,12 +15,14 @@ You'll need to...
 
 Commands
 
-To see the data in Mongo `meteor mongo`
+Fire up Mongo `meteor mongo`
 
 To deploy `meteor deploy ground-up.meteor.com`
 
 To remove deployment `meteor deploy --delete ground-up.meteor.com`
 
-To clear Mongo collection ``
+To clear Mongo collection `db.things.drop()`
+
+To reset the project `meteor reset` - Which also drops the collections in Mongo
 
 */
