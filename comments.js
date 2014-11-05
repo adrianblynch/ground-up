@@ -25,4 +25,8 @@ To clear Mongo collection `db.things.drop()`
 
 To reset the project `meteor reset` - Which also drops the collections in Mongo
 
+Things to note
+
+By default, to aid development, the full Mongo DB is replicated on all clients and all changes are propergated straight away.
+
 */
