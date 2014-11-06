@@ -4,7 +4,21 @@ Meteor
 
 What is it?
 
-A real time node application that runs on the client and server.
+It's a Node application built from the ground up with support for real-time applications.
+
+It's isomorphic - Your app runs on the server and the client.
+
+It's an ecosystem with a package manager and deployment tools.
+
+It's opinionated. But it won't ram everything down your throat.
+
+It's a company, much like Joyent or MongoDB (formally 10gen) and they raised over $11 million from Andreessen Horowitz (Box, AirBNB and some site called Facebook)
+
+It's growing. There are over 2500 packages available.
+
+And today happens to be Meteor day! meteorday.com
+
+There's a meetup tonight if you want to know more www.meetup.com/Meteor-London/events/212413162/
 
 You'll need to...
 
@@ -15,15 +29,11 @@ You'll need to...
 
 Commands
 
-Fire up Mongo `meteor mongo`
-
-To deploy `meteor deploy ground-up.meteor.com`
-
-To remove deployment `meteor deploy --delete ground-up.meteor.com`
-
-To clear Mongo collection `db.things.drop()`
-
-To reset the project `meteor reset` - Which also drops the collections in Mongo
+- Fire up Mongo `meteor mongo`
+- To deploy `meteor deploy ground-up.meteor.com`
+- To remove deployment `meteor deploy --delete ground-up.meteor.com`
+- To clear Mongo collection `db.things.drop()`
+- To reset the project `meteor reset` - Which also drops the collections in Mongo
 
 Things to note
 
