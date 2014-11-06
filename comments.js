@@ -29,4 +29,6 @@ Things to note
 
 By default, to aid development, the full Mongo DB is replicated on all clients and all changes are propergated straight away.
 
+The router maps to a template and a layout. It can show a loading template whilst it waits on data to be loaded.
+
 */
