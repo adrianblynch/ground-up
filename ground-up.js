@@ -1,12 +1,13 @@
 // 1. Setup for the incrementor, a helper and events
 
- if (Meteor.isClient) {
+if (Meteor.isClient) {
 
 	// Set default at the start
 	Session.setDefault("counter", 0);
 
 	// Provide the template with a way to get the current counter
 	Template.hello.helpers({
+		//counter: "sod all"
 		counter: function () {
 			return Session.get("counter");
 		}
@@ -49,8 +50,8 @@ if (Meteor.isClient) {
 	});
 
 	// 3b. Nothing is in this collection until we run the following in the Mongo shell:
-	// db.tasks.insert({text: "Thing from the DB 1"});
-	// db.tasks.insert({text: "Thing from the DB 2"});
+	// db.things.insert({text: "Thing from the DB 1"});
+	// db.things.insert({text: "Thing from the DB 2"});
 
 	// 4. Event mapping to behaviour
 	// Template.body.events({
