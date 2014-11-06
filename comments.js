@@ -22,6 +22,8 @@ There's a meetup tonight if you want to know more. www.meetup.com/Meteor-London/
 
 It's being held up the road at Mind Candy, the company behind Moshi monsters. mindcandy.com
 
+Get the code here github.com/adrianblynch/ground-up
+
 You'll need to...
 
 - Download and install Meteor by running `curl https://install.meteor.com/ | sh`
